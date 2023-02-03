@@ -8,11 +8,11 @@ if a%2 != 0:
         c = a - j
         c -= 1
         d.append(V[c])
-    for k in range(len(V)):
+    for k in range(len(V)//2):
         if V[k] >= d[k]:
             V[k] = d[k]
             e = a - 1
             V[e-k] = d[e-k]
         else:
-            break
+            continue
 print (V)

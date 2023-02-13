@@ -34,7 +34,7 @@ def main() -> None:
 while True:
     main()
     d = input("deseja adicionar mais alunos?: ").lower()
-    if d == 'sim':
+    if d == 'sim' or d == 's':
         continue
     else:
         print(Dicio)

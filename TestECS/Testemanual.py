@@ -1,7 +1,0 @@
-C = str(input())
-S = str.lower(input())
-A = str.lower(C)
-B = str.find(A,S)
-D = str(C[B])
-C = str.split(C,D)
-print(C)
